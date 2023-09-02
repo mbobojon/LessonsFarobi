@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #49CFAE;
+}
+
+.box  {
+    margin: 60px 50px 50px 100px;
+    border-radius: 3%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img {
+    border-radius: 50%;
+}
+
+.box h2 {
+    color: #e0e4e5;
+}
+
+.box p {
+    color: #E0E4E5;
+}
+
+p .number {
+    color: #515151;
+}
+
+.box_one {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.box_one .title_two{
+    color: #E2CF79;
+}
+
+.box_one .price_two{
+    color: #E2CF79;
+}
+
+.box_one .title_three{
+    color: #AE7980;
+}
+
+.box_one .price_three{
+    color: #AE7980;
+}

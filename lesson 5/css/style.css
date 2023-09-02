@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playball&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../image/vigitable.png);
+    background-size: 100% auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 3.47vw 8.33vw 0 8.33vw;
+}
+
+.navbar_brand {
+    margin-right: 16.04vw;
+}
+
+.navbar_brand h1 {
+    font-family: 'Playball', sans-serif;
+    color: #18BD4F;
+    font-size: 2.63vw;
+    font-weight: 400;
+}
+
+.navbar_brand span{
+    color: #333;
+}
+
+.navbar_menu{
+    display: flex;
+}
+
